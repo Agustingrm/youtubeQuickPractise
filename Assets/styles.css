@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  font-family: 'Oxygen Mono', monospace;
+      color: rgb(53, 53, 53);
+}
+
+header {
+  height: 50px;
+  background-color: white;
+  display: flex;
+}
+
+header img {
+  height: 20px;
+}
+
+header input {
+  height: 20px;
+  width: 350px;
+}
+
+header button {
+  height: 26px;
+  width: 50px;
+}
+
+.leftLogo {
+  float: left;
+  margin: 15px 0 0 15px;
+}
+
+.centerLogo {
+  display: flex;
+  margin: 15px auto;
+}
+
+.rightLogo {
+  float: right;
+  margin: 15px 15px 0 0;
+}
+
+#videoContainer {
+  width: 850px;
+  margin: 20px;
+  float: left;
+}
+
+h1 {
+    font-size: 22px;
+}
+#reproductions{
+    margin: 0;
+  }
+
+#videoInfo {
+  display: flex;
+  justify-content: space-between;
+}
+
+.detailsImg {
+  display: flex;
+}
+
+.detailsImg p {
+    margin: 0 5px;
+  }
+
+#videoInfo div {
+  display: flex;
+}
+
+#videoInfo img {
+  height: 20px;
+}
+
+#suggested {
+    margin-top: 20px;
+}
+
+.suggestedVideo {
+    display: flex;
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+.suggestedVideo p {
+    margin: 0 0 15px 0;
+    padding: 0 5px;
+
+}
